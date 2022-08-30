@@ -1,0 +1,33 @@
+<script>
+    //USANDO OPERADOR TERNÁRIO USANDO OPERADOR TERNÁRIO USANDO OPERADOR TERNÁRIO
+    
+    //PROBLEMA: Experiência do Programador
+    //Peça para o Programador informar quantos anos possui de experiência profissional.
+    //Peça também para que o Programador informe se possui Curso Técnico na área de Informática. 
+    //O outro dado que o Programador deverá informar é se possui Curso de Graduação na área de Informática.
+    //Considere que cada ano de experiência vale quatro pontos, possuir Curso Técnico vale 10 pontos e possuir Curso de Graduação vale 15 pontos.
+
+    //Se o Programador possuir até 25 pontos (inclusive), será considerado INICIANTE
+    //Se o Programador possuir mais de 25 pontos, será considerado EXPERIENTE
+
+    //Calcule os pontos e apresente o nível de experiência do Programador
+
+    //ENTRADA
+const quantosAnosExperiência = Number(prompt("informe quantos anos possui de experiência profissional: "));
+const cursotécnico = parseInt(prompt("informe se possui curso técnico na área de Informática (0-Não | 1-Sim): "));
+const cursodegraduação = parseInt(prompt("informe se possui curso de graduação na área de Informática(0-Não | 1-Sim): "));
+
+    //PROCESSAMENTO
+    let pontos;
+    pontos = (quantosAnosExperiência * 4) + (cursotécnico * 10) + (cursodegraduação * 15);
+    let resultado;
+    (pontos <= 25) ?
+{ (quantosAnosExperiência * cursotécnico * cursodegraduação = pontos = 25);
+: ("iniciante");
+(quantosAnosExperiência => cursotécnico => cursodegraduação)
+:
+("experiente");
+}
+    //SAÍDA
+document.write(resultado => 25 (experiente) 25 (iniciante));
+</script>
